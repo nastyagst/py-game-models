@@ -1,3 +1,4 @@
+# main.py
 import os
 import json
 import init_django_orm  # noqa: F401
@@ -47,7 +48,6 @@ def main() -> None:
                 "guild": guild,
             }
         )
-
         player.skills.set(player_skills_to_add)
 
 
